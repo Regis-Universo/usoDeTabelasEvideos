@@ -1,0 +1,142 @@
+@charset "utf-8";
+
+/* Formatação de menu */
+
+nav#menu {
+  display: grid;
+  width: 150px;
+  height: 600px;
+  margin-top: 4px;
+
+}
+
+nav#menu ul {
+  font-size: 15px;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  top: 120px;
+  left: 0;
+  margin-left: 0;
+}
+
+nav#menu li {
+  list-style: none;
+  background-color: #dddddd;
+  padding: 10px;
+  margin: 2px;
+  transition: background-color 1s;
+  margin-top: 25%;
+  margin-right: 25%;
+}
+
+nav#menu li:hover {
+  list-style: none;
+  background-color: #606060;
+}
+
+nav#menu a {
+  color: #000;
+  text-decoration: none;
+}
+
+nav#menu a:hover {
+  color: #fff;
+  text-decoration: underline;
+}
+
+aside#menu-lateral {
+  margin-top: 2px;
+  display: grid;
+  width: 100;
+  height: 600px;
+  float: right;
+  background-color: rgb(133, 38, 38);
+}
+
+body
+{
+    width:996;
+    height: 616;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+header {
+  color: red;
+  text-align: center;
+  font-size: 50px;
+  text-decoration: underline;
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  font-size: 60px;
+  font-family: arial;
+  letter-spacing: 5px;
+  word-spacing: 15px;
+}
+
+h2 {
+  color: red;
+  text-align: center;
+  font-size: 50px;
+  font-family: arial;
+  letter-spacing: 5px;
+  word-spacing: 15px;
+}
+
+#cabecalho {
+  width: 996px;
+  margin: auto;
+}
+
+#image {
+  width: 996px;
+  height: 300px;
+}
+
+#conteudo-principal {
+  background-color: rgb(136, 82, 82);
+  float: right;
+  width: 240px;
+  height: 600px;
+  margin: 2px;
+}
+
+#elemento_pai {
+  display: grid;
+  grid-template-columns: 300px 300px;
+  position: absolute;
+ /* top: 370px;
+  left: 713px;*/
+  width: 600px;
+  height: 600px;
+  background-color: #ccc;
+  margin: 0 auto;
+}
+
+.vermelho {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.azul {
+  position: relative;
+  width: 300px;
+  height: 300px;  
+}
+
+.verde {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.rosa {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
